@@ -15,14 +15,14 @@ Ensure you have the following installed on your system:
 1. Clone the repository:
 ```bash
    https://github.com/kudrat07/Backend_CRUD.git
-
+```
+```bash
    cd Backend_CRUD
    ```
 
 2. Install dependencies:
 ```bash
    npm install
-
    ```
 
 3. Create a `.env` file in the root directory and add necessary environment variables:
