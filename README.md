@@ -28,12 +28,8 @@ Ensure you have the following installed on your system:
 3. Create a `.env` file in the root directory and add necessary environment variables:
 
    ```env
-   PORT=3000
+   PORT=8080
    DB_URL="mongodb+srv://kudrathussain809:kudrat2002@assignmentdb.u25r3.mongodb.net/?retryWrites=true&w=majority&appName=assignmentDB"
-
-
-
-
 4. Start the server:
 
  ```bash
