@@ -35,11 +35,16 @@ Ensure you have the following installed on your system:
 
 
 4. Start the server:
+
+ ```bash
    npm start
+   ```
    
    Or run in development mode with nodemon:
 
+```bash
    npm run dev
+   ```
 
 
 ## API Endpoints
