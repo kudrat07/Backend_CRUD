@@ -14,7 +14,7 @@ Ensure you have the following installed on your system:
 
 1. Clone the repository:
 ```bash
-   https://github.com/kudrat07/Backend_CRUD.git
+  git clone https://github.com/kudrat07/Backend_CRUD.git
 ```
 ```bash
    cd Backend_CRUD
