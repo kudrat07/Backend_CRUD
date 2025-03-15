@@ -13,22 +13,28 @@ Ensure you have the following installed on your system:
 ### Installation
 
 1. Clone the repository:
-
+```bash
    https://github.com/kudrat07/Backend_CRUD.git
 
    cd Backend_CRUD
+   ```
 
 2. Install dependencies:
-
+```bash
    npm install
+
+   ```
 
 3. Create a `.env` file in the root directory and add necessary environment variables:
 
-    PORT=3000
-    DB_URL="mongodb+srv://kudrathussain809:kudrat2002@assignmentdb.u25r3.mongodb.net/?retryWrites=true&w=majority&appName=assignmentDB"
+   ```env
+   PORT=3000
+   DB_URL="mongodb+srv://kudrathussain809:kudrat2002@assignmentdb.u25r3.mongodb.net/?retryWrites=true&w=majority&appName=assignmentDB"
+
+
+
 
 4. Start the server:
-   
    npm start
    
    Or run in development mode with nodemon:
@@ -120,7 +126,7 @@ Ensure you have the following installed on your system:
     }
   }
   
-  
+
 ### Update a User
 
 - **Endpoint:** `PUT /user/:id`
