@@ -9,6 +9,7 @@ Ensure you have the following installed on your system:
 - [Node.js] (v14+ recommended)
 - [MongoDB] 
 - npm package manager
+- VS Code
 
 ### Installation
 
@@ -25,12 +26,14 @@ Ensure you have the following installed on your system:
    npm install
    ```
 
-3. Create a `.env` file in the root directory and add necessary environment variables:
+3. Open the project folder in VS Code
+
+4. Create a `.env` file in the root directory and add necessary environment variables:
 
    ```env
    PORT=8080
    DB_URL="mongodb+srv://kudrathussain809:kudrat2002@assignmentdb.u25r3.mongodb.net/?retryWrites=true&w=majority&appName=assignmentDB"
-4. Start the server:
+5. Start the server:
 
  ```bash
    npm start
